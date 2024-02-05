@@ -1,0 +1,63 @@
+/* ------------------------------
+	        Botón Envio
+------------------------------*/
+
+.Ayuda_btn {
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 10px 0px black;
+    cursor: pointer;
+}
+
+.Ayuda_btn:hover {
+    box-shadow: none;
+    background-color: black;
+    color: white;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.hideEnvio   {
+    display: none;
+}
+
+.showEnvio   {
+    display: block;
+}
+
+.hidePagos   {
+    display: none;
+}
+
+.showPagos   {
+    display: block;
+}
+
+.hideDevolucion   {
+    display: none;
+}
+
+.showDevolucion  {
+    display: block;
+}
+
+.hideContactanos  {
+    display: none;
+}
+
+.showContactanos   {
+    display: block;
+}
+
+
+/* ------------------------------
+	        Links
+------------------------------*/
+
+
+.color {
+    color: black;
+}

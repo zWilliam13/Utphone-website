@@ -1,0 +1,67 @@
+.contenedor-general-tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    /* width: 75%; */
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.acomodar_cuadros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+}
+
+.contenedor-imagen {
+    position: relative;
+}
+
+.contenedor-imagen img {
+    /*width: 350px;
+    height: auto;*/
+    width: 450px;
+    border-radius: 10px;
+}
+
+.precio {
+    display: flex;
+    margin-top: 10px;
+}
+
+.cuadros_separacion {
+    margin: 0 50px;
+}
+
+.cuadros_separacion img {
+    max-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.agrandar {
+    display: inline-block;
+}
+
+.agrandar img {
+    transition: transform 0.3s;
+}
+
+.agrandar img:hover {
+    transform: scale(1.1);
+}
+
+.items {
+    padding: 10px;
+}

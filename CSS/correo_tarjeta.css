@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Poppins:wght@300;700&display=swap');
+
+/* ------------------------------
+	Variables
+	------------------------------*/
+
+:root{
+
+    /* Colores */
+    --color-background: #fff;    
+    --color-section1:#DDE5B6;
+    --color-section2: #ADC178;
+    --color-title: #1E1E1E;
+    --color-text: rgba(30, 30, 30, 0.75);
+    --color-subtext: rgba(30, 30, 30, 0.5);
+
+    /* Fuentes */
+    --font-Logo1: 'Oranienbaum', serif;
+    --font-General:'Poppins', sans-serif;
+
+    /* Transiciones */
+    --transi-1: all 300ms ease;
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;        
+}
+
+a{
+    text-decoration: none;
+}
+
+body{    
+    font-family: var(--font-General);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--color-section1);
+    background-image:url('../Images/GIFF/cosmic.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bar2 h1{   
+    text-align: center;
+    padding: 10px 0 15px 0;
+    border-bottom: 1px solid var(--color-title);
+    font-family: var(--font-Logo1);
+    color: var(--color-title); 
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.login{
+    background-color: var(--color-background);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 15px 0;
+    width: 400px;
+}
+
+.login > h1{
+    text-align: center;
+    margin: 15px 0 15px 0;
+    font-weight: 900;
+    font-size: 30;
+}
+
+.login h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    font-family: inherit;
+    border: 2px solid #eee;
+    font-size: 13px;
+    color: var(--color-title);
+}
+
+input:not(:last-child){
+    margin-bottom: 15px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #55c57a;
+}
+input:focus:invalid{
+    border: 2px solid #ff7730;
+}
+
+input::-webkit-input-placeholder{
+    color: var(--color-subtext);
+    font-weight: 500;
+}
+
+.input-password{
+    position: relative;
+
+}
+
+.input-password box-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.btn-show{
+    position: absolute;
+    display: flex;    
+    align-items: center;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    background: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+#show-p{
+    display: none;
+}
+
+.paragraph1{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.btn-sing{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: var(--color-section2);
+    border-radius: 10px;
+    cursor:pointer;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.paragraph2{
+    font-weight: 500;
+    font-size: 13px;
+    margin: 25px 0;
+    text-align: center;
+
+}
+
+.container-btn-login-with{
+    display: flex;
+}
+
+.btn-login-with{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border: 1px solid #eee;
+    background: none;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-login-with:hover{
+    background-color: var(--color-section1);
+}
+
+.btn-login-with box-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.create{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.create a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--color-title)
+}
+
+.my-alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #383d41;
+    background-color: #53bd64;
+    border-color: #56aa56;
+}
+
+.footer{
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+}
+

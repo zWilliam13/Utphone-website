@@ -1,0 +1,176 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body_login {
+    font-family: Arial, sans-serif;
+    background: #D6DBDF;
+}
+
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Formulario de inicio de sesión */
+.login {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.login h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login h2 {
+    font-size: 16px;
+    color: #666;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: rgb(22, 152, 255);
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    background: rgb(90, 181, 255);
+    transition: all 0.2s ease-out;
+}
+
+.input-password {
+    position: relative;
+}
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+.input-password input {
+    padding-right: 40px;
+}
+
+.input-password img{
+    height: 35%;
+}
+
+.icon-ojo{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.icon-ojo img{
+    width: 10px;
+}
+
+/* Pie de página */
+.footer-info {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.loglink{
+    color: royalblue;
+}
+
+.bar2 {
+    display: block;
+    position: relative;
+    bottom: 20px; /* Ajusta la posición vertical según tus preferencias */
+    left: 10px; /* Ajusta la posición horizontal según tus preferencias */
+    width: 15px;
+    color: #8F8F8F;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    font-size: 15px;
+    transition: all 0.1s ease-in;
+}
+
+.bar2:hover {
+    text-decoration: none;
+    color: #AFAFAF;
+    transform: translateY(-1px);
+    transition: all 0.1s ease-out;
+}
+
+.bar2 p {
+  margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
+
+.select-css {
+ font-weight: 400;
+ color: #444;
+ line-height: 1.3;
+ padding: .4em 1.4em .3em .8em;
+ box-sizing: border-box;
+ margin: 0;
+ border: 1px solid #aaa;
+ box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
+ border-radius: .3em;
+ -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+ background-color: #fff;
+ background-repeat: no-repeat, repeat;
+ background-position: right .7em top 50%, 0 0;
+ background-size: .65em auto, 100%;
+}
+.select-css::-ms-expand {
+ display: none;
+}
+.select-css:hover {
+ border-color: #888;
+}
+.select-css:focus {
+ border-color: #aaa;
+ box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+ box-shadow: 0 0 0 3px -moz-mac-focusring;
+ color: #222; 
+ outline: none;
+}
+.select-css option {
+ font-weight:normal;
+}

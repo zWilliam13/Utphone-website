@@ -1,0 +1,71 @@
+/* ------------------------------
+	        Botón Envio
+------------------------------*/
+
+.Reclamo_btn {
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 10px 0px black;
+    cursor: pointer;
+}
+
+.Reclamo_btn:hover {
+    box-shadow: none;
+    background-color: black;
+    color: white;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.hideEntrega  {
+    display: none;
+}
+
+.showEntrega  {
+    display: block;
+}
+
+.hidePaquete  {
+    display: none;
+}
+
+.showPaquete  {
+    display: block;
+}
+
+.hideEstandar  {
+    display: none;
+}
+
+.showEstandar {
+    display: block;
+}
+
+.hideRastreo  {
+    display: none;
+}
+
+.showRastreo  {
+    display: block;
+}
+
+.hideCancelar  {
+    display: none;
+}
+
+.showCancelar  {
+    display: block;
+}
+
+
+/* ------------------------------
+	        Links
+------------------------------*/
+
+
+.color {
+    color: black;
+}

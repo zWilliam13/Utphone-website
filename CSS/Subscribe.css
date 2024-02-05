@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Poppins:wght@300;700&display=swap');
+
+/* ------------------------------
+	Variables
+	------------------------------*/
+
+:root{
+
+    /* Colores */
+    --color-background: #fff;    
+    --color-section1:#DDE5B6;
+    --color-section2: #ADC178;
+    --color-title: #1E1E1E;
+    --color-text: rgba(30, 30, 30, 0.75);
+    --color-subtext: rgba(30, 30, 30, 0.5);
+    --color-subsubtext: rgba(30, 30, 30, 0.2);
+
+
+    /* Fuentes */
+    --font-Logo1: 'Oranienbaum', serif;
+    --font-General:'Poppins', sans-serif;
+
+    /* Transiciones */
+    --transi-1: all 300ms ease;
+}
+
+/* ------------------------------
+	General
+	------------------------------*/
+
+ul li{
+    list-style: none;
+}
+
+
+.close{
+   
+    cursor: pointer;
+}
+.fil-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont{
+    display: flex;
+}
+/* ------------------------------
+	        Filtro
+------------------------------*/ 
+#filter{
+    display: flex; 
+    cursor: pointer; 
+    max-width: 8%;
+      
+}
+
+#filter span{
+    margin-right: 10px;
+}
+
+.bar{
+    transition: .4s ease;
+    opacity: 0;
+    width: 0%;
+    position: relative;
+    overflow: hidden;
+}
+
+.items{
+ padding: 10px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.i-category h4{
+    padding: 2px 0 5px 0;
+}
+
+.i-category li{
+    font-size: 14px;
+    color: var(--color-title);
+}
+/* .list li{
+    padding-right: 5px;
+} */
+
+
+/* ------------------------------
+	        prendas
+------------------------------*/ 
+
+
+.contenedor-general-ropa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    /* width: 75%; */
+    width: 100%;
+}
+
+
+
+/* .contenedor-general h1{
+    margin: 30px 0px 10px 10px;
+} */
+
+.contenedor-ropa{
+    width: 250px;
+    height: 450px;
+    margin: 10px 0 30px 0;
+    
+}
+
+.contenedor-imagen{
+    position: relative;
+}
+
+.contenedor-imagen img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#img2{
+    width: 355px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.r4 i{
+    /* position: absolute; permite que se mueva pero sin dejar espacio en blanco donde estaba
+    top: 86%;
+    left: 82%; */
+    font-size: 20pt;
+    /* -webkit-text-stroke: 1.5px black; */
+    color: var(--color-title); 
+    cursor: pointer;
+    
+}
+
+.r4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.r4 i:hover{
+    color: #df1717;
+    -webkit-text-stroke: 0px black;
+}
+
+
+
+.descuento{
+    margin-left: 43px;
+    background-color: #eec0c0;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#seleccion{
+    border: none;
+    padding: 20px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;    
+    background: var(--color-background);
+    border-style: none;
+    border-radius: 10px;
+    
+}
+
+/* dialog{
+    border-color: --;
+} */
+
+#seleccion::backdrop{
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+#seleccion::-webkit-scrollbar{
+    width: 7px;
+}
+
+#seleccion::-webkit-scrollbar-thumb{
+    background: none;
+    border-radius: 5px;
+}
+
+
+.modal-cont{
+    max-width: 80ch;
+    display: flex;
+    position: relative;
+    border: none;
+}
+
+.col2 {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;				
+}
+
+.space1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fila .add{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+    color: var(--color-title);
+}
+
+.add a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: 20px 0 ; */
+    background-color: var(--color-section2);
+    border: none;
+    padding: 5px;
+    border-radius: 8px; 
+    font-size: 14px;
+    width: 60%;
+}
+
+.col2 p,.col2 span{
+    margin:  5px 0;    
+}
+
+.size{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size ul{
+    display: flex;
+    padding: 10px 0;
+}
+
+.size ul li.list{
+    margin: 5px;
+    font-size: 13px;
+    position: relative;
+    list-style: none;
+    width: 40px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid var(--color-subtext);
+    justify-content: center;
+    align-items: center;
+}
+
+.size ul li.active{
+ background-color: var(--color-text);
+ color: var(--color-background);
+}
+
+.item .info1{
+    position: fixed;
+    opacity: 0;    
+}
+.item .info2{
+    position: fixed;
+    opacity: 0;    
+}
+
+.delivery{
+    padding: 10px 0;
+}
+
+.delive{
+    border: 1px solid var(--color-subsubtext);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.delive{
+    display: flex;
+    align-items: center;
+    color: var(--color-subsubtext);
+}
+
+
+
+
+.del h5{
+    margin: 0;
+    padding: 0;
+    color: var(--color-subsubtext);
+}
+
+.del p{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-subsubtext);
+}
+
+.delive span{
+    font-size: 40px;
+    padding: 0 10px;    
+}
+
+.delive.active{
+    border: 1px solid var(--color-section2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    color: var(--color-section2);
+}
+
+.delive.active p{    
+    color: var(--color-text);
+}
+
+.delive.active h5{    
+    color: var(--color-text);
+}
+
+.cerrar{
+    position: absolute;
+    right:20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+/* .modal-cont #description{
+    font-size: 13px;
+} */
+
+/* table{
+    margin: 10px 0;
+    width: 100%;
+    border: solid 1px var(--color-subsubtext);
+    color: var(--color-text);
+    font-size: 13px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead{   
+    text-align: center;
+    margin: 0 7.5px;
+    border-bottom: solid 1px var(--color-subsubtext);
+}
+caption{
+border-top: solid 1px var(--color-subsubtext);
+border-left: solid 1px var(--color-subsubtext);
+border-right: solid 1px var(--color-subsubtext);
+}
+th, caption{
+    text-align: center;
+    padding: 7.5px 5px;
+    font-weight: 600;
+    
+}
+
+td{
+    text-align: center;
+    padding: 7.5px;
+    border-bottom: solid 1px var(--color-subsubtext);
+    border-left: solid 1px var(--color-subsubtext);
+    
+} */
+
+/* .modal-cont label{
+    font-size: 14px;
+} */
+
+#description{
+    text-align: justify;
+    font-size: 13px;
+}
+
+
+
+.modal-cont h2{
+    margin-bottom: 10px;
+}
+
+.col2>span{
+    /* s */
+    padding: 10px 0;
+}
+
+label.texto{
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.detail{
+    padding: 10px 0;
+    color: var(--color-text);
+}

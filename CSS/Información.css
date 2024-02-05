@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Poppins:wght@300;700&display=swap');
+
+/* ------------------------------
+	Variables
+	------------------------------*/
+
+:root{
+
+    /* Colores */
+    --color-background: #fff;    
+    --color-section1:#DDE5B6;
+    --color-section2: #ADC178;
+    --color-title: #1E1E1E;
+    --color-text: rgba(30, 30, 30, 0.75);
+    --color-subtext: rgba(30, 30, 30, 0.5);
+
+    /* Fuentes */
+    --font-Logo1: 'Oranienbaum', serif;
+    --font-General:'Poppins', sans-serif;
+
+    /* Transiciones */
+    --transi-1: all 300ms ease;
+}
+
+/* ------------------------------
+	General
+	------------------------------*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-General);
+}
+a{
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 5px;
+}
+
+/* ------------------------------
+	Header
+------------------------------*/  
+
+
+.bar{   
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    background: #faf9f9;
+    position: fixed; /*fijo*/
+    z-index: 1;
+    left:0;
+    top: 0;
+    right: 0;
+}
+.bar h1{   
+    font-family: var(--font-Logo1);
+    color: var(--color-title); 
+    font-weight: 200;
+    margin: 10px 30px 10px;
+    font-size: 50px;
+}
+.bar a{   
+    color: var(--color-title); 
+}
+
+.enlaces a{
+    padding: 25px;
+}
+
+.enlaces a:hover{
+    text-decoration: underline;
+}
+
+
+/* ------------------------------
+	Información principal
+------------------------------*/
+.contenedor-general {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 120px 350px 0px;
+}
+
+.información-tarjeta{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.información-tarjeta h1{
+    margin-bottom: 20px;
+}
+
+.información-tarjeta p{
+    line-height: 200%;
+}
+
+.texto-centro{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto-justificado{
+    text-align: justify;
+    line-height: 200%;
+}
+
+.texto-previo-lista {
+    margin-bottom: 20px;
+}
+
+.información-tarjeta-trabajo h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.información-tarjeta-trabajo p{
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 200%;
+}
+
+
+.contenedor-general-productos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 40px 100px 0px;
+    justify-content: center;
+}
+
+.titulo-principal-productos{
+    margin: 120px 100px 0px;
+    text-align: center;
+}
+
+.tarjeta-producto{
+    margin:10px;
+    position: relative;
+}
+
+.tarjeta-producto{
+    margin:10px;
+    position: relative;
+}
+
+.tarjeta-producto img{
+    width: 387px;
+    height: auto;
+}
+
+.tarjeta-producto img:hover{
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
+.texto-trajeta-producto1{
+    position: absolute;
+    top:40%;
+    left: 33%;
+    color: #fff;
+    text-align: center;
+}
+
+.texto-trajeta-producto2{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    color: #fff;
+    text-align: center;
+}
+
+.texto-trajeta-producto3{
+    position: absolute;
+    top:40%;
+    left: 10%;
+    color: #fff;
+    text-align: center;
+}
+
+.texto-trajeta-producto4{
+    position: absolute;
+    top:35%;
+    left: 25%;
+    color: #fff;
+    text-align: center;
+}
+
+/* ------------------------------
+	Footer
+------------------------------*/
+
+footer{    
+    background-color: #1E1E1E;  
+    margin-top: 100px;
+}
+    
+.container{
+    padding: 0px 100px 0px;
+}
+
+.footer-linea1{
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+    
+.footer-linea1 h1{
+    font-family: var(--font-Logo1);
+    color: #fff; 
+    font-weight: 600;
+    font-size: 30px;  
+    
+}
+    
+.footer-linea2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.footer-linea2 a{
+    color: #fff; 
+    margin: 30px;
+    text-align: center;
+}
+
+.footer-linea2 a:hover{
+    color:#999999;
+}
+
+.footer-linea3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-bottom: 80px;
+    font-size: 15px;
+}
+
+.linea3-texto{
+    color:#999999;
+}
+
+.linea3-titulo{
+    color:#fff;
+}

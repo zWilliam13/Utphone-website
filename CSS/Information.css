@@ -1,0 +1,44 @@
+.contenedor-general {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 70px 350px 0px 350px;
+}
+
+.información-tarjeta{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.información-tarjeta h1{
+    margin-bottom: 20px;
+}
+
+.información-tarjeta p{
+    line-height: 200%;
+}
+
+.texto-centro{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto-justificado{
+    text-align: justify;
+    line-height: 200%;
+}
+
+.texto-previo-lista {
+    margin-bottom: 20px;
+}
+
+.información-tarjeta-trabajo h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.información-tarjeta-trabajo p{
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 200%;
+}

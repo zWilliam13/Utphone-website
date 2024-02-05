@@ -1,0 +1,95 @@
+ h2 {
+    font-size: 35px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 90px 0 30px 0;
+}
+
+p {
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+ section img {
+    display: block;
+    margin: auto;
+    width: 45%
+}
+
+#quienes-somos {
+    background: #262626;
+    padding: 50px 0px;
+}
+
+
+#quienes-somos .contenedor p {
+    color: #fff;
+}
+
+
+#quienes-somos .contenedor h2 {
+    color: #fff ;
+}
+
+ h3 {
+    text-align: center;
+    
+}
+
+
+#objetivo .objetivo-contenido {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#objetivo .objetivo-contenido .objetivo-iten {
+    width: 49%;
+}
+
+#objetivo .objetivo-contenido .objetivo-iten h3 {
+    margin: 0 0 30px 0;
+}
+
+#comensales {
+    background: #3B3B3B;
+    padding: 30px 0;
+    color: #fff;
+    margin: 0px;
+
+}
+
+
+#comensales .personas {
+    display: flex;
+    justify-content: space-around;
+}
+
+#comensales .personas .personas-iten {
+    width: 33%;
+}
+
+
+#comensales .personas img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 50px;
+    display: block;
+}
+
+#comensales .personas h3 {
+    margin: 30px;
+    font-weight: bold;
+}
+
+#comensales .personas p {
+    font-style: italic;
+    width: 80%;
+}

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Poppins:wght@300;700&display=swap');
+
+/* ------------------------------
+	Variables
+	------------------------------*/
+
+:root{
+
+    /* Colores */
+    --color-background: #fff;    
+    --color-section1:#DDE5B6;
+    --color-section2: #ADC178;
+    --color-title: #1E1E1E;
+    --color-text: rgba(30, 30, 30, 0.75);
+    --color-subtext: rgba(30, 30, 30, 0.5);
+
+    /* Fuentes */
+    --font-Logo1: 'Oranienbaum', serif;
+    --font-General:'Poppins', sans-serif;
+
+    /* Transiciones */
+    --transi-1: all 300ms ease;
+}
+
+/* ------------------------------
+	General
+	------------------------------*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-General);
+    
+}
+a{
+  text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+.close{
+   
+    cursor: pointer;
+}
+.fil-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont{
+    display: flex;
+}
+/* ------------------------------
+	        Filtro
+------------------------------*/ 
+#filter{
+    display: flex; 
+    cursor: pointer;   
+}
+
+#filter span{
+    margin-right: 10px;
+}
+
+.bar{
+    transition: .4s ease;
+    opacity: 0;
+    width: 0%;
+    position: relative;
+    overflow: hidden;
+}
+
+.items{
+ padding: 10px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.i-category h4{
+    padding: 2px 0 5px 0;
+}
+
+.i-category li{
+    font-size: 14px;
+}
+/* .list li{
+    padding-right: 5px;
+} */
+
+/* ------------------------------
+	        Categorías
+------------------------------*/ 
+
+.categorías{
+    margin: 20px 120px 0px 60px;
+    width: 150px;
+    text-align: center;
+}
+
+.categorías p{
+    margin-bottom: 20px;
+}
+
+.categorías a{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.categorías a:active{
+    color: #f75b5b;
+    text-decoration: underline;
+}
+
+.categorías a:hover{
+    color: #f75b5b;
+    text-decoration: underline;
+}
+
+
+/* ------------------------------
+	Categorías-decoración
+------------------------------*/ 
+
+.activo{
+    color: #f75b5b;
+    text-decoration: underline;
+}
+
+.no-activo{
+    text-decoration: none;
+    color: #000;
+}
+
+/* ------------------------------
+	        prendas
+------------------------------*/ 
+
+
+.contenedor-general-ropa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    /* width: 75%; */
+    width: 100%;
+}
+
+
+
+/* .contenedor-general h1{
+    margin: 30px 0px 10px 10px;
+} */
+
+.contenedor-ropa{
+    width: 250px;
+    height: 450px;
+    margin: 10px 0 30px 0;
+    
+}
+
+.contenedor-imagen{
+    position: relative;
+}
+
+.contenedor-imagen img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.r4 i{
+    /* position: absolute; permite que se mueva pero sin dejar espacio en blanco donde estaba
+    top: 86%;
+    left: 82%; */
+    font-size: 20pt;
+    /* -webkit-text-stroke: 1.5px black; */
+    color: var(--color-title); 
+    cursor: pointer;
+    
+}
+
+.r4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.r4 i:hover{
+    color: #df1717;
+    -webkit-text-stroke: 0px black;
+}
+
+.precio{
+    display: flex;
+    margin-top: 10px;
+}
+
+.descuento{
+    margin-left: 43px;
+    background-color: #eec0c0;
+    padding: 2%;
+    border-radius: 20px;
+}
+

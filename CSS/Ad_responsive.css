@@ -1,0 +1,28 @@
+
+@media (min-width: 1200px) {
+    .menu {
+    max-width: 240px;
+    height: 100%;
+    padding: 24px;
+    margin: 0;
+    position: fixed;
+    background-color: var(--dl-color-default-black);
+    font-family: Inter;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+    .frame40251-live-car-status {
+        top: 20px;
+        left: 286px;
+        width: 1040px;
+        display: flex;
+        position: absolute;
+        border-radius: 8px;
+        box-shadow: 0px 8px 14px 0px rgba(69, 69, 79, 0.10000000149011612);
+        align-items: center;
+        flex-shrink: 0;
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+}

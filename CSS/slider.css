@@ -1,0 +1,19 @@
+
+.price-range-block {
+    margin:2% 0%;
+}
+
+.ui-slider-horizontal {
+    width:100%;
+}
+
+.price-range-field{
+    border: none;
+    width:30%; 
+    min-width: 16%; 
+    outline: none;
+    font-family: myFont;  
+    border-radius: 5px; 
+    height:26px; 
+    padding:5px;
+}

@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 oct. 2023, 14:07:07
+    Author     : maxed
+*/
+
+
+#meta {
+    text-align: center;
+}
+
+#meta h2 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+}
+
+#meta img {
+    margin: 20px auto;
+    display: block;
+
+}
+
+#meta p {
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+    line-height: 40px;
+
+}
+
+#carta {
+    text-align: center;
+}
+
+#carta h2 {
+    font-size: 35px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+
+}
+
+#carta img {
+    width: 25%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+#carta .carta-iten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+
+}
+
+
+#staff {
+    text-align: center;
+}
+
+#staff h2 {
+    font-size: 35px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+
+}
+
+#staff img {
+    margin: 20px auto;
+    display: block;
+
+}
+
+#staff p {
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+    line-height: 40px;
+
+}

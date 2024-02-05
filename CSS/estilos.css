@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 oct. 2023, 15:21:51
+    Author     : maxed
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@import url(header.css);
+@import url(footer.css);
+@import url(banner.css);
+@import url(botonSubir.css);
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    width: 95%;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 150px;
+    width: 100%;
+
+}
+
+.contenedor-linea {
+    background: red;
+    width: 40px;
+    height: 2px;
+    display: block;
+    background: #666666;
+    vertical-align: middle;
+    margin: 15px auto;
+}
+
+.cotenedor-boton {
+    padding: 20px 20px; 
+    border: solid #666666  1px;
+    display: block;
+    width: 200px;
+    margin: 35px auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cotenedor-boton:hover {
+    background-color: rgb(102,102,102, 0.9);
+    color: #fff;
+    transition: 0.5s;    
+}

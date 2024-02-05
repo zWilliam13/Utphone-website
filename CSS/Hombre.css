@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+html{
+    /* font-size: 18px; */
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 5px;
+}
+
+.body{
+    display: flex;
+}
+
+/* ------------------------------
+	        Categorías
+------------------------------*/
+
+.categorías{
+    margin: 50px 80px 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100px;
+    text-align: center;
+}
+
+.categorías p{
+    margin-bottom: 20px;
+}
+
+.categorías button{
+    cursor: pointer;
+    border: none;
+    background: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.categorías button:hover{
+    color: #f75b5b;
+    text-decoration: underline;
+}
+
+/* ------------------------------
+Contenedor de principal y prendas
+------------------------------*/
+
+.contenedor-general #contenido-inicio{
+    display: none;
+}
+.contenedor-general h1{
+    margin: 30px 0px 10px 10px;
+}
+
+/* ------------------------------
+    Sección principal inicio
+------------------------------*/
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.anuncio{
+    position: relative;
+    margin: 30px 223px 0px 40px;
+    
+}
+.anuncio img{
+    width: 900px;
+    height: auto;
+}
+
+.anuncio h1{
+    font-size: 25pt;
+    color: #ffffff;
+}
+
+.anuncio p{
+    font-size: 20pt;
+    color: #ffffff; 
+}
+
+.anuncio1-titulo{
+    position: absolute;
+    top: 60%;
+    left: 16%;
+}
+
+.anuncio1-detalle{
+    position: absolute;
+    top: 76%;
+    left: 37%;
+}
+
+.anuncio1-boton{
+    cursor: pointer;
+    background: #ffffff;
+    color: #000;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 85%;
+    left: 41%;
+}
+
+.anuncio2-titulo{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+
+.anuncio2-detalle{
+    position: absolute;
+    top: 76%;
+    left: 26%;
+}
+
+.anuncio2-boton{
+    cursor: pointer;
+    background: #ffffff;
+    color: #000;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 85%;
+    left: 41%;
+}
+
+.anuncio3-titulo{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+}
+
+.anuncio3-detalle{
+    position: absolute;
+    top: 76%;
+    left: 28%;
+}
+
+.anuncio3-boton{
+    cursor: pointer;
+    background: #ffffff;
+    color: #000;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 85%;
+    left: 41%;
+}
+
+.tendencias{
+    margin: 10px 223px 00px 20px;
+}
+
+.tendencias h1{
+    text-align: center;
+}
+
+.contenedor-tendencias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.tendencia-muestra{
+    margin: 10px 15px 10px;
+    text-align: center;
+    width: 120px;
+    height: auto;
+}
+
+.tendencia-muestra img{
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.tendencia-muestra button{
+    border: none;
+    background: #ffffff;
+}
+
+.tendencia-muestra img:hover{
+    cursor:pointer;
+}
+
+/* ------------------------------
+        Sección prendas
+------------------------------*/
+.contenedor-general-ropa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenedor-ropa{
+    width: 250px;
+    height: 450px;
+    margin: 10px 10px 40px;
+}
+
+.contenedor-imagen{
+    position: relative;
+}
+
+.contenedor-imagen img{
+    width: 250px;
+    height: auto;
+}
+
+.contenedor-imagen i{
+    position: absolute; /*permite que se mueva pero sin dejar espacio en blanco donde estaba*/
+    top: 86%;
+    left: 82%;
+    font-size: 25pt;
+    -webkit-text-stroke: 1.5px black;
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+.contenedor-imagen i:hover{
+    color: #df1717;
+    -webkit-text-stroke: 0px black;
+}
+
+.precios{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    position: relative;
+}
+
+
+
+#contenedor-general #seccion-productos{
+    display: none;
+}

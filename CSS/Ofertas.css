@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+html{
+    /* font-size: 18px; */
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+body::-webkit-scrollbar{
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 5px;
+}
+
+.body{
+    display: flex;
+}
+
+/* ------------------------------
+	        Categorías
+------------------------------*/ 
+
+.categorías{
+    margin: 20px 120px 0px 60px;
+}
+
+.categorías p{
+    margin-bottom: 20px;
+}
+
+.categorías a{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.categorías a:active{
+    color: #f75b5b;
+    text-decoration: underline;
+}
+
+.categorías a:hover{
+    color: #f75b5b;
+    text-decoration: underline;
+}
+
+
+/* ------------------------------
+	Categorías-decoración
+------------------------------*/ 
+
+.activo{
+    color: #f75b5b;
+    text-decoration: underline;
+}
+
+.no-activo{
+    text-decoration: none;
+    color: #000;
+}
+
+/* ------------------------------
+	tipos de prendas
+------------------------------*/ 
+
+.tipos{
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px 0px 20px;
+}
+
+.tipos button{
+    cursor: pointer;
+    border: none;
+    background: #ffffff;
+    font-size: 18px;
+    padding: 10px 50px 10px 0px;
+    width: 130px;
+}
+
+/* ------------------------------
+	        prendas
+------------------------------*/ 
+
+
+.contenedor-general-ropa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenedor-general h1{
+    margin: 30px 0px 10px 10px;
+}
+
+.contenedor-ropa{
+    width: 250px;
+    height: 450px;
+    margin: 10px 10px 40px;
+}
+
+.contenedor-imagen{
+    position: relative;
+}
+
+.contenedor-imagen img{
+    width: 250px;
+    height: auto;
+}
+
+.contenedor-imagen i{
+    position: absolute; /*permite que se mueva pero sin dejar espacio en blanco donde estaba*/
+    top: 86%;
+    left: 82%;
+    font-size: 25pt;
+    -webkit-text-stroke: 1.5px black;
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+.contenedor-imagen i:hover{
+    color: #df1717;
+    -webkit-text-stroke: 0px black;
+}
+
+.precios{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    position: relative;
+}
+
+.precios p{
+    color:#df1717;
+}
+.precios del{
+    padding-top: 2%;
+}
+
+.precio-nuevo{
+    margin-right: 10px;
+    padding-top: 2%;
+}
+
+.descuento{
+    margin-left: 43px;
+    background-color: #eec0c0;
+    padding: 2%;
+    border-radius: 20px;
+}
+
